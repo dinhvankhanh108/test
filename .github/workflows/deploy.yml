@@ -40,6 +40,6 @@ jobs:
       if: steps.cache.outputs.cache-hit != 'true'
 
     - name: Build the app
-      run: npm run build:production
+      run: npm run build
       working-directory: ./client
       continue-on-error: true
