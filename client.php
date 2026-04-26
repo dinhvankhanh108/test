@@ -1,0 +1,2 @@
+<?php
+$CLIENT = 'localhost';
